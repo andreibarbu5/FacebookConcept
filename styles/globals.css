@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navbuttons {
+    @apply w-[1.2rem] h-[1.2rem] md:w-[1.45rem] md:h-[1.45rem];
+  }
+}
 html,
 body {
   padding: 0;
@@ -16,6 +21,7 @@ a {
 }
 
 * {
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 
