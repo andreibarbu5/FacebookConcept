@@ -27,7 +27,10 @@ const Stories = () => {
         <div className="bg-white  flex justify-center mx-auto w-full max-w-[25rem] space-x-4 rounded-[1rem] py-2 px-2  sm:max-w-[30rem] md:max-w-[34rem]">
           {/* Story 1 */}
           {stories.map((story) => (
-            <div className="relative flex  w-[5rem] md:w-[7rem] ">
+            <div
+              key={story.profile}
+              className="relative flex  w-[5rem] md:w-[7rem] "
+            >
               <div className="flex bg-gray-700 rounded-[1rem] ">
                 <Image
                   src={story.profile}
