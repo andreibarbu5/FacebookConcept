@@ -33,7 +33,7 @@ const LeftSide = () => {
           </div>
           <p className="font-semibold">Andrei Barbu</p>
         </div>
-        <div className="border-t border-[#d2d0d0]"></div>
+        <div className="border-t border-[#d2d0d0] max-w-[10rem] "></div>
         <div className="space-y-7">
           <div className="flex ">
             <AiOutlineDesktop className="w-6 h-6" />
